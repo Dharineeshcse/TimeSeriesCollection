@@ -1,0 +1,536 @@
+[
+  {
+    "timestamp": "2025-09-01T04:17:05.431000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "_id": "68b51e41f18e952a7247c077",
+    "alert_type": null,
+    "metrics": {
+      "temperature": 72.7,
+      "humidity": 50.68
+    },
+    "severity": null,
+    "alert_message": null
+  },
+  {
+    "timestamp": "2025-09-01T04:17:05.447000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "type": "health_status"
+    },
+    "status": "OPTIMAL",
+    "_id": "68b51e41f18e952a7247c078",
+    "message": "Server room environment is running within optimal parameters",
+    "alert_type": "HEALTH_STATUS",
+    "severity": "INFO"
+  },
+  {
+    "timestamp": "2025-09-01T04:18:05.461000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "_id": "68b51e7df18e952a7247c079",
+    "alert_type": null,
+    "metrics": {
+      "temperature": 66.72,
+      "humidity": 51.75
+    },
+    "severity": null,
+    "alert_message": null
+  },
+  {
+    "timestamp": "2025-09-01T04:19:05.469000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": [
+      "Humidity 63.47% is above maximum threshold 60%"
+    ],
+    "_id": "68b51eb9f18e952a7247c07a",
+    "alert_type": [
+      "HUMIDITY_HIGH"
+    ],
+    "severity": [
+      "CRITICAL"
+    ],
+    "metrics": {
+      "temperature": 74.55,
+      "humidity": 63.47
+    }
+  },
+  {
+    "timestamp": "2025-09-01T04:20:05.476000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b51ef5f18e952a7247c07b",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 65.39,
+      "humidity": 45.45
+    }
+  },
+  {
+    "timestamp": "2025-09-01T04:21:05.483000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b51f31f18e952a7247c07c",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 69.78,
+      "humidity": 49.23
+    }
+  },
+  {
+    "timestamp": "2025-09-01T04:22:05.489000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b51f6df18e952a7247c07d",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 65.69,
+      "humidity": 49.45
+    }
+  },
+  {
+    "timestamp": "2025-09-01T04:23:05.498000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": [
+      "Humidity 64.35% is above maximum threshold 60%"
+    ],
+    "_id": "68b51fa9f18e952a7247c07e",
+    "alert_type": [
+      "HUMIDITY_HIGH"
+    ],
+    "severity": [
+      "CRITICAL"
+    ],
+    "metrics": {
+      "temperature": 70.57,
+      "humidity": 64.35
+    }
+  },
+  {
+    "timestamp": "2025-09-01T04:24:05.505000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b51fe5f18e952a7247c07f",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 72.39,
+      "humidity": 54.94
+    }
+  },
+  {
+    "timestamp": "2025-09-01T04:25:05.510000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b52021f18e952a7247c080",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 69.23,
+      "humidity": 50.95
+    }
+  },
+  {
+    "timestamp": "2025-09-01T04:26:05.516000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b5205df18e952a7247c081",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 70.59,
+      "humidity": 45.54
+    }
+  },
+  {
+    "timestamp": "2025-09-01T04:27:05.522000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b52099f18e952a7247c082",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 72.47,
+      "humidity": 50.73
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:00:39.119000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b5287788fb2a68457146a9",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 71.89,
+      "humidity": 49.96
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:00:39.140000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "type": "health_status"
+    },
+    "status": "OPTIMAL",
+    "_id": "68b5287788fb2a68457146aa",
+    "message": "Server room environment is running within optimal parameters",
+    "alert_type": "HEALTH_STATUS",
+    "severity": "INFO"
+  },
+  {
+    "timestamp": "2025-09-01T05:01:39.158000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b528b388fb2a68457146ab",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 71.78,
+      "humidity": 46.0
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:02:39.163000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b528ef88fb2a68457146ac",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 74.77,
+      "humidity": 45.39
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:03:39.168000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b5292b88fb2a68457146ad",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 72.96,
+      "humidity": 48.19
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:04:39.173000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b5296788fb2a68457146ae",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 74.25,
+      "humidity": 46.07
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:05:39.179000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b529a388fb2a68457146af",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 73.35,
+      "humidity": 54.44
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:06:39.184000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": [
+      "Temperature 61.75\u00b0F is below minimum threshold 63\u00b0F"
+    ],
+    "_id": "68b529df88fb2a68457146b0",
+    "alert_type": [
+      "TEMPERATURE_LOW"
+    ],
+    "severity": [
+      "WARNING"
+    ],
+    "metrics": {
+      "temperature": 61.75,
+      "humidity": 53.47
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:07:39.192000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": [
+      "Temperature 82.71\u00b0F is above maximum threshold 80\u00b0F"
+    ],
+    "_id": "68b52a1b88fb2a68457146b1",
+    "alert_type": [
+      "TEMPERATURE_HIGH"
+    ],
+    "severity": [
+      "CRITICAL"
+    ],
+    "metrics": {
+      "temperature": 82.71,
+      "humidity": 54.72
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:08:39.198000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b52a5788fb2a68457146b2",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 74.45,
+      "humidity": 46.01
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:49:16.815000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b533dc21476f466840ed9d",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 71.58,
+      "humidity": 49.77
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:49:16.833000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "type": "health_status"
+    },
+    "status": "OPTIMAL",
+    "_id": "68b533dc21476f466840ed9e",
+    "message": "Server room environment is running within optimal parameters",
+    "alert_type": "HEALTH_STATUS",
+    "severity": "INFO"
+  },
+  {
+    "timestamp": "2025-09-01T05:50:16.843000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b5341821476f466840ed9f",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 72.36,
+      "humidity": 54.16
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:51:16.852000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b5345421476f466840eda0",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 74.83,
+      "humidity": 53.72
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:52:16.858000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b5349021476f466840eda1",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 68.54,
+      "humidity": 53.86
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:53:16.863000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b534cc21476f466840eda2",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 69.87,
+      "humidity": 52.31
+    }
+  },
+  {
+    "timestamp": "2025-09-01T05:54:16.871000",
+    "metadata": {
+      "building": "CBE",
+      "location": "MCW",
+      "room": "ServerRoom",
+      "sensor_id": "SR001",
+      "sensor_type": "environmental"
+    },
+    "alert_message": null,
+    "_id": "68b5350821476f466840eda3",
+    "alert_type": null,
+    "severity": null,
+    "metrics": {
+      "temperature": 66.5,
+      "humidity": 45.4
+    }
+  }
+]
