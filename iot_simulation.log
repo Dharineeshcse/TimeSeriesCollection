@@ -1,0 +1,51 @@
+2025-09-01 11:19:16,698 - INFO - Initializing IoT Time-Series Simulation System...
+2025-09-01 11:19:16,698 - INFO - Attempting to connect to MongoDB...
+2025-09-01 11:19:16,780 - INFO - MongoDB connection successful
+2025-09-01 11:19:16,784 - INFO - Time-series collection already exists
+2025-09-01 11:19:16,797 - INFO - Indexes created successfully
+2025-09-01 11:19:16,810 - INFO - Database health check passed
+2025-09-01 11:19:16,810 - INFO - ✅ Thresholds updated - Temp: 63°F to 80°F, Humidity: 40% to 60%
+2025-09-01 11:19:16,811 - INFO - System initialization completed successfully
+2025-09-01 11:19:16,814 - INFO - System Status:
+2025-09-01 11:19:16,814 - INFO -    Database Connected: True
+2025-09-01 11:19:16,814 - INFO -    Collection Ready: True
+2025-09-01 11:19:16,814 - INFO -    Sensor Location: MCW, CBE, ServerRoom
+2025-09-01 11:19:16,814 - INFO -    Temperature Thresholds: (63, 80)°F
+2025-09-01 11:19:16,815 - INFO -    Humidity Thresholds: (40, 60)%
+2025-09-01 11:19:16,815 - INFO -    Data Collection Interval: 60 seconds
+2025-09-01 11:19:16,815 - INFO - Starting IoT Time-Series Simulation...
+2025-09-01 11:19:16,815 - INFO - Press Ctrl+C to stop.
+2025-09-01 11:19:16,832 - INFO - [2025-09-01 05:49:16.815645] Temp: 71.58°F, Humidity: 49.77%
+2025-09-01 11:19:16,833 - INFO - Running health maintenance tasks...
+2025-09-01 11:19:16,842 - ERROR - Error cleaning up old data: Cannot perform an update or delete on a time-series collection when querying on a field that is not the metaField 'metadata', full error: {'index': 0, 'code': 72, 'errmsg': "Cannot perform an update or delete on a time-series collection when querying on a field that is not the metaField 'metadata'"}
+2025-09-01 11:19:16,842 - INFO - Data cleanup completed: 0 old documents removed
+2025-09-01 11:19:16,843 - INFO - Health maintenance completed successfully
+2025-09-01 11:20:16,851 - INFO - [2025-09-01 05:50:16.843597] Temp: 72.36°F, Humidity: 54.16%
+2025-09-01 11:21:16,857 - INFO - [2025-09-01 05:51:16.852588] Temp: 74.83°F, Humidity: 53.72%
+2025-09-01 11:22:16,863 - INFO - [2025-09-01 05:52:16.858771] Temp: 68.54°F, Humidity: 53.86%
+2025-09-01 11:23:16,871 - INFO - [2025-09-01 05:53:16.863872] Temp: 69.87°F, Humidity: 52.31%
+2025-09-01 11:24:16,879 - INFO - [2025-09-01 05:54:16.871914] Temp: 66.5°F, Humidity: 45.4%
+2025-09-01 11:25:16,886 - INFO - [2025-09-01 05:55:16.880511] Temp: 66.63°F, Humidity: 53.36%
+2025-09-01 11:26:16,893 - INFO - [2025-09-01 05:56:16.887339] Temp: 67.41°F, Humidity: 45.56%
+2025-09-01 11:27:16,900 - INFO - [2025-09-01 05:57:16.893752] Temp: 73.65°F, Humidity: 51.16%
+2025-09-01 11:28:16,906 - INFO - [2025-09-01 05:58:16.901202] Temp: 69.62°F, Humidity: 48.48%
+2025-09-01 11:29:16,912 - INFO - [2025-09-01 05:59:16.907633] Temp: 66.13°F, Humidity: 50.03%
+2025-09-01 11:30:16,917 - INFO - [2025-09-01 06:00:16.912873] Temp: 69.66°F, Humidity: 54.62%
+2025-09-01 11:31:16,923 - INFO - [2025-09-01 06:01:16.918691] Temp: 70.06°F, Humidity: 54.44%
+2025-09-01 11:32:16,923 - CRITICAL - 🚨 CRITICAL ALERT: Temperature 59.19°F is below minimum threshold 63°F
+2025-09-01 11:32:16,936 - INFO - [2025-09-01 06:02:16.923514] Temp: 59.19°F, Humidity: 47.07% - ALERTS: 1
+2025-09-01 11:33:16,941 - INFO - [2025-09-01 06:03:16.936684] Temp: 71.41°F, Humidity: 53.41%
+2025-09-01 11:34:16,948 - INFO - [2025-09-01 06:04:16.942581] Temp: 72.44°F, Humidity: 40.36%
+2025-09-01 11:35:16,954 - INFO - [2025-09-01 06:05:16.949377] Temp: 74.05°F, Humidity: 47.1%
+2025-09-01 11:36:16,960 - INFO - [2025-09-01 06:06:16.955638] Temp: 66.7°F, Humidity: 50.46%
+2025-09-01 11:37:16,967 - INFO - [2025-09-01 06:07:16.960863] Temp: 71.34°F, Humidity: 48.28%
+2025-09-01 11:38:16,974 - INFO - [2025-09-01 06:08:16.968340] Temp: 73.97°F, Humidity: 52.73%
+2025-09-01 11:39:16,974 - CRITICAL - 🚨 CRITICAL ALERT: Humidity 35.97% is below minimum threshold 40%
+2025-09-01 11:39:16,980 - INFO - [2025-09-01 06:09:16.974679] Temp: 69.75°F, Humidity: 35.97% - ALERTS: 1
+2025-09-01 11:40:16,986 - INFO - [2025-09-01 06:10:16.981727] Temp: 67.3°F, Humidity: 46.48%
+2025-09-01 11:41:16,993 - INFO - [2025-09-01 06:11:16.986997] Temp: 73.01°F, Humidity: 51.84%
+2025-09-01 11:42:16,999 - INFO - [2025-09-01 06:12:16.993958] Temp: 74.7°F, Humidity: 48.91%
+2025-09-01 11:42:38,270 - INFO - IoT Simulation stopped by user.
+2025-09-01 11:42:38,271 - INFO - Cleaning up resources...
+2025-09-01 11:42:38,274 - INFO - MongoDB connection closed
+2025-09-01 11:42:38,274 - INFO - Cleanup completed successfully
